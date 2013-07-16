@@ -135,20 +135,19 @@ body {
 .latestvids {
 	float: right;
 	padding-right: 40px;
-	
+
 }
 
 .montage {
 	display:inline-block;
-	margin-left: 100px
+	margin-left: 100px;
+	padding-top: 50px;
 
 }
 
 .discription {
 	padding-bottom: 75px;
-	display: block;
 	display: inline-block;
-	float: left;
 }
 
 .brofist {
@@ -161,9 +160,7 @@ body {
 }
 
 .story {
-	margin-top: 120px;
 	height: 130px;
-	padding-bottom: 100px;
 }
 
 .story p {
@@ -209,5 +206,9 @@ body {
 
 .aboutme h2 {
 	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.uppersection {
 	padding-bottom: 50px;
 }
