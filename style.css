@@ -44,6 +44,8 @@ body {
 	background-size: 100% 100%;
 	background-position: center center;
 	position: absolute;
+	left: 950;
+	top: 1;
 }
 
 .twitter-icon {
@@ -55,11 +57,13 @@ body {
 	background-position: center center;
 	display: inline-block;
 	position: absolute;
+	top: 25;
+	left: 1111;
 }
 
 .deadpooldiscription {
 	position: relative;
-	font-size: 25px
+	font-size: 17.5px
 }
 
 .deadpooldiscription:before {
@@ -67,14 +71,14 @@ body {
 	background: url("mqdefault.jpg") no-repeat;
 	position: absolute;
 	left: 0;
-	width:200px;
-	height:100px;
+	width:150px;
+	height:75px;
 	background-size: 100%;
 	background-position: center center;
 }
 
 .deadpooldiscription p {
-	padding-left: 220px;
+	padding-left: 160px;
 
 
 
@@ -85,18 +89,18 @@ body {
 	background: url("tlou-thumb.jpg") no-repeat;
 	position: absolute;
 	left: 0;
-	width:200px;
-	height:100px;
+	width:150px;
+	height:75px;
 	background-size: 100%;
 	background-position: center center;
 }
 
 .tlou-discription p {
-	padding-left: 220px;
+	padding-left: 160px;
 }
 
 .tlou-discription {
-	font-size: 25px;
+	font-size: 17.5px;
 	position: relative;
 }
 
@@ -105,15 +109,15 @@ body {
 	background: url("insanitythumb.jpg") no-repeat;
 	position: absolute;
 	left: 0;
-	width:200px;
-	height:100px;
+	width:150px;
+	height:75px;
 	background-size: 100%;
 	background-position: center center;
 }
 
 .insanitydiscription p {
-	padding-left: 220px;
-	font-size: 25px;
+	padding-left: 160px;
+	font-size: 17.5px;
 	display: inline-block;
 }
 
@@ -209,11 +213,18 @@ body {
 
 .uppersection {
 	padding-bottom: 50px;
-	margin:100 auto 0 auto;
-	width: 1300px;
+	margin:0 auto 0 auto;
+	width: 1100px;
 	height: 200px;
 }
 
 .header {
 	position: absolute;
+	margin-bottom: -100;
+}
+
+.title {
+	position: absolute;
+	top: 75;
+	left: 520;
 }
