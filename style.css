@@ -4,7 +4,7 @@
 }
 
 body {
-	background-image: url(brofist.jpg);
+	background-image: url(background.png);
 }
 
 .container {
@@ -13,23 +13,27 @@ body {
 }
 
 .youtube-icon {
-	background-image: url("youtubeicon.jpg");
+	background-image: url("screen-shot.png");
 	display: block;
-	height: 100px;
-	width:100px;
+	height: 150px;
+	width:300px;
 	text-indent: -9999em;
 	background-size: 100% 100%;
 	background-position: center center;
-	margin: 10px 10px 10px 200px;
-
+	margin: 10px 10px 10px 0px;
+	border-radius: 18px;
+	left: 111;
+	position: relative;
+	top: 11px;
+}
 }
 
 .title {
 	font-size: 40px;
-	position: relative;
+/*	position: relative;
 	bottom: 100px;
-	left: 500px;
-
+	left: 500px;*/
+	display: inline-block;
 }
 
 .facebook-icon {
@@ -39,10 +43,7 @@ body {
 	text-indent: -9999em;
 	background-size: 100% 100%;
 	background-position: center center;
-	float: right;
 	position: absolute;
-	top: -15px;
-	left: 1100px
 }
 
 .twitter-icon {
@@ -53,10 +54,7 @@ body {
 	background-size: 100% 100%;
 	background-position: center center;
 	display: inline-block;
-	float: right;
 	position: absolute;
-	top: 10px;
-	left: 1000px;
 }
 
 .deadpooldiscription {
@@ -211,4 +209,11 @@ body {
 
 .uppersection {
 	padding-bottom: 50px;
+	margin:100 auto 0 auto;
+	width: 1300px;
+	height: 200px;
+}
+
+.header {
+	position: absolute;
 }
